@@ -540,6 +540,7 @@
                                     <span class="btn-text">Download CV</span>
                                     <span class="btn-icon"><i class="fas fa-download"></i></span>
                                 </a> -->
+                                <input type="hidden" name="_next" value="https://mukeshmhanta02.github.io/mukesh_/">
                                 <button id="contact-sbtn-submit" type="submit" class="buttonSubmit">Send</button>
                             </div>
                         </form>
@@ -569,35 +570,8 @@
     <!-- <div class="theme-btn">
         <i class="fas fa-adjust"></i>
     </div> -->
-    <script src="app.js">
-
-    </script>
+    <script src="app.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script type="text/javascript">
-        {
-            var pass = "Lalit@007";
-        }
-        function sendEmail() {
-            alert("Send Email Function");
-            Email.send({
-                Host: "smtp.elasticemail.com",
-                Username: "mukeshmhanta4@gmail.com",
-                Password: "Livo@4348",
-                To: "mukeshmhanta44@gmail.com",
-                From: "mdmhanta19@sus.ac.in",
-                Subject: "Email From Site",
-                Port: 2525,
-                Body: "In this tutorial, you will learn the steps for sending email using Smtp.js (a free JS library). Using this you will be able to directly send email using client-side javascript without any server-level configurations.",
-            }).then(
-                message => {
-                    if (message == "OK")
-                        alert("Mail sent successfullyy")
-                    else
-                        alert("" + message)
-                }
-            );
-        }
-    </script>
 </body>
 
 </html>
