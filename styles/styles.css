@@ -345,13 +345,16 @@ section {
   width: 75%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .react {
-  width: 60%;
+  width: 75%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .node {
-  width: 87%;
-}
-.about-stats .progress-bars .progress-bar .progress-con .progress .python {
+.about-stats .progress-bars .progress-bar .progress-con .progress .csharp {
   width: 70%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .sql {
+  width: 68%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .jquery {
+  width: 75%;
 }
 
 .stat-title {
